@@ -1,0 +1,702 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: #fafafa;
+}
+
+
+
+
+/* estilos del header*/
+
+header{
+    font-size: 20px;
+    padding: 4px 40px;
+}
+
+header nav .container-fluid div ul{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+header nav .container-fluid div form input{
+    width: 300px;
+    padding: 6px 12px;
+}
+
+.rigth-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+/* estilos para hero-section*/
+
+.hero-section{
+    background-image: url(../imagenes/perros-hero-secction.png);
+    height: 40vh;
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    color: #fafafa;
+    font-size: 24px;
+}
+
+.hero-section button{
+    padding: 16px 60px;
+    font-size: 26px;
+    font-weight:900;
+    border-radius: 8px;
+    border: none;
+    color: #E8F6F9;
+    background-color: #16A1C2;
+    box-shadow: 0 4px 10 px #3e3c3c;
+}
+
+.hero-section button:hover{
+    background-color: #0a4a5a;
+}
+
+.banner-perros{
+    background-image: url(../imagenes/perros.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.banner-gatos{
+    background-image: url(../imagenes/gatos.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.banner-accesorios{
+    background-image: url(../imagenes/accesorios.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.enlaces{
+    display: none;
+}
+
+/* estilos del main*/
+
+.login{
+    background-image: url(../imagenes/lindo-mascota-collage-aislado.jpg);
+    height: 94vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login .form-box .form-login .input input{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.imagen{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-box{
+width:  650px;
+background-color: #fafafae8;
+padding:  40px;
+border-radius: 10px;
+box-shadow: 0 4px 16px #4d4a4a5f;
+}
+
+
+main .form-box .form-login input{
+    padding: 10px 20px;
+    color: #B2B2B2;
+    border-radius: 10px;
+}
+
+
+.checkbox-container{
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#checkbox{
+    width: 20px;
+}
+
+
+.login .form-box button{
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #16A1C2;
+    border: none;
+    border-radius: 10px;
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 10px #4d4a4a4b;
+}
+
+.login .form-box button:hover{
+    background-color: #0a4a5a;
+}
+
+.ofertas-especiales{
+    color: #4D4A4A;
+    margin: 60px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+.group-oferta{
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.card-oferta-accesorios{
+    width: 600px;
+    height: 340px;
+    background-image: url(../imagenes/card-accesorios.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #c9c9c9;
+    position: relative;
+}
+
+.card-oferta-accesorios h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+
+.card-oferta-juguetes{
+    width: 600px;
+    height: 340px;
+    background-image: url(../imagenes/card-juguetes.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #c9c9c9;
+    position: relative;
+}
+
+.card-oferta-juguetes h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.card-oferta-masticables{
+    width: 600px;
+    height: 340px;
+    background-image: url(../imagenes/card-huesos.png);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #c9c9c9;
+    position: relative;
+}
+
+.card-oferta-masticables h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
+}
+
+.recomendaciones{
+    color: #4D4A4A;
+    margin: 60px;
+    font-size: 18px;
+}
+
+.group-card{
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-between;
+}
+
+.producto-popular{
+    font-size: 16px;
+    max-width: 240px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #c9c9c9;
+}
+
+.producto-popular h4{
+    font-size: 20px;
+    color: #3e3c3c;
+    text-align: left;
+    margin: 8px 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.valoracion{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px ;
+}
+
+.button-card{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    color: #E8F6F9;
+    background-color: #16A1C2;
+}
+
+.button-card:hover{
+    background-color: #0a4a5a;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+aside{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+aside .categorias ul li{
+    list-style: none;
+    font-size: 18px;
+    color: #979797;
+    padding: 4px 0;
+
+}
+
+aside .categorias h3{
+    font-size: 22px;
+    color: #4D4A4A;
+}
+
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.group-products{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 60px 0;
+}
+
+.group-products-2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 60px 0;
+
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.img{
+    width: 350px;
+}
+
+
+/* estilos del footer*/
+
+footer{
+    background-color: #E8F6F9;
+    font-size: 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div h3{
+    margin: 20px 0;
+    font-size: 24px;
+
+}
+
+footer div ul{
+    padding: 0;
+}
+
+footer div ul li{
+    list-style: none;
+    padding-bottom: 4px;
+    font-size: 18px;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:  834px){
+    /* estilos del header*/
+    
+    .icons{
+        display: none;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+
+    /* estilos del hero section*/
+
+    .hero-section{
+        height: 50vh;
+        gap: 24px;
+        color: #fafafa;
+        font-size: 20px;
+    }
+    
+
+    /* estilos del main*/
+    
+    .group-oferta{
+        gap: 20px;
+    }
+    
+    .card-oferta-accesorios{
+        height: 250px;
+        border-radius: 16px;
+    }
+    
+    .card-oferta-accesorios h3{
+        font-size: 24px;
+    }
+    
+    
+    .card-oferta-juguetes{
+        height: 250px;
+        border-radius: 16px;
+    }
+    
+    .card-oferta-juguetes h3{
+        font-size: 24px;
+    }
+    
+    .card-oferta-masticables{
+        height: 250px;
+        border-radius: 16px;
+    }
+    
+    .card-oferta-masticables h3{
+        font-size: 24px;
+    }
+
+    .group-card{
+        display: flex;
+        gap: 20px;
+    }
+
+    .producto-popular{
+        box-shadow: 0 4px 10px #c9c9c9;
+}
+
+
+.banner-perros{
+    background-image: url(../imagenes/banner-tablet-perros.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.banner-gatos{
+    background-image: url(../imagenes/banner-tablet-gatos.png);
+}
+
+.pages{
+    gap: 10px;
+}
+
+aside{
+    margin: 40px 40px 0 0;
+    gap: 22px;
+}
+
+aside .categorias ul li{
+    list-style: none;
+    font-size: 14px;
+}
+
+aside .categorias h3{
+    font-size: 16px;
+}
+
+.img{
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.group-products{
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.group-products-2{
+    gap: 20px;
+    margin: 40px 0;
+
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+footer{
+    font-size: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+footer div ul li{
+    padding-bottom: 4px;
+}
+
+} 
+
+@media screen and (max-width:  486px){
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    /* estilos para hero-section*/
+    
+    .hero-section{
+        height: 40vh;
+        padding: 20px;
+        gap: 20px;
+        text-align: left;
+        color: #fafafa;
+        font-size: 16px;
+    }
+    
+    .hero-section button{
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .enlaces{
+        margin: 40px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .img-enlace{
+        border-radius: 50px;
+        margin-bottom: 8px;
+    }
+
+    h5{
+        text-align: center;
+    }
+    
+
+    h2{
+        font-size: 20px;
+    }
+
+    .ofertas-especiales{
+        margin: 40px;
+    }
+    
+    .group-oferta{
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .card-oferta-accesorios{
+        width: 100%;
+        height: 20vh;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px #c9c9c9;
+    }
+    
+    .card-oferta-accesorios h3{
+        font-size: 20px;
+        top: 32px;
+        right: 32px;
+    }
+    
+    
+    .card-oferta-juguetes{
+        width: 100%;
+        height: 20vh;
+        border-radius: 16px;
+    }
+    
+    .card-oferta-juguetes h3{
+        font-size: 20px;
+        top: 32px;
+        right: 32px;
+    }
+    
+    .card-oferta-masticables{
+        width: 100%;
+        height: 20vh;
+        border-radius: 16px;
+    }
+    
+    .card-oferta-masticables h3{
+        font-size: 20px;
+        top: 32px;
+        right: 32px;
+    }
+
+    .recomendaciones{
+        margin: 40px;
+        font-size: 14px;
+    }
+    
+    .group-card{
+        overflow-x: auto;
+        margin: 40px 0;
+    }
+    
+    .producto-popular{
+        font-size: 12px;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    
+    .producto-popular h4{
+        font-size: 20px;
+        margin: 8px 0;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+    
+    .button-card{
+        font-size: 16px;
+    }
+    
+
+    aside{
+        display: none;
+    }
+    
+    .img{
+        width: 110px;
+        margin-bottom: 20px;
+    }
+    
+    .group-products{
+        gap: 12px;
+        margin: 24px 0;
+    }
+    
+    .group-products-2{
+        gap: 12px;
+        margin: 24px 0;
+    }
+
+    h4{
+        padding-bottom: 12px;
+        font-size: 14px;
+    }
+
+    .banner-perros{
+        background-image: url(../imagenes/banner-mobile-perro.png);
+        height: 20vh;
+        background-size: cover;
+    }
+    
+    .banner-gatos{
+        background-image: url(../imagenes/banner-mobile-gato.png);
+    }
+
+    
+
+    footer{
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    footer div ul li{
+        font-size: 14px;
+    }
+
+    footer div h3{
+        font-size: 16px;
+    }
+}
