@@ -1,0 +1,117 @@
+main{
+    section{
+        color: #4D4A4A;
+        margin: 60px;
+        h2{
+            font-size: 24px;
+        }
+        div{
+            margin: 60px 0;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            div{
+                width: 600px;
+                height: 340px;
+                background-image: url(../imagenes/card-accesorios.png);
+                background-size: cover;
+                border-radius: 20px;
+                box-shadow: 0 4px 10px #c9c9c9;
+                position: relative;
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #fafafa;
+                    position: absolute;
+                    top: 40px;
+                    right: 40px;
+                }
+            }
+            div{
+                width: 600px;
+                height: 340px;
+                background-image: url(../imagenes/card-juguetes.png);
+                background-size: cover;
+                border-radius: 20px;
+                box-shadow: 0 4px 10px #c9c9c9;
+                position: relative;
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #fafafa;
+                    position: absolute;
+                    top: 40px;
+                    right: 40px;
+                }
+            }
+            div{
+                width: 600px;
+                height: 340px;
+                background-image: url(../imagenes/card-huesos.png);
+                background-size: cover;
+                border-radius: 20px;
+                box-shadow: 0 4px 10px #c9c9c9;
+                position: relative;
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #fafafa;
+                    position: absolute;
+                    top: 40px;
+                    right: 40px;
+                }
+            }
+        }
+    }
+
+    section{
+        color: #4D4A4A;
+        margin: 60px;
+        font-size: 18px;
+        h2{
+
+        }
+        div{
+            display: flex;
+            margin: 60px 0;
+            justify-content: space-between;
+            .producto-popular{
+                font-size: 16px;
+                max-width: 240px;
+                padding: 16px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px #c9c9c9;
+                h4{
+                    font-size: 20px;
+                    color: #3e3c3c;
+                    text-align: left;
+                    margin: 8px 0;
+                    padding: 0;
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 8px ;
+                }
+                p{
+                    font-size: 20px;
+                    text-align: right;
+                    font-weight: 600;
+                }
+                button{
+                    width: 100%;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    border: none;
+                    font-size: 18px;
+                    color: #E8F6F9;
+                    background-color: #16A1C2;
+                    &:hover{
+                        background-color: #0a4a5a;
+                    }
+                }
+            }
+        }
+    }
+}

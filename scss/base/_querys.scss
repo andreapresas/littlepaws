@@ -1,0 +1,317 @@
+@media screen and (max-width:  834px){
+    header{
+        nav{
+            div{
+                button{
+                    border: none;
+                }
+                div{
+                    div{
+                        .icons{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .hero-section{
+        height: 50vh;
+        gap: 24px;
+        color: #fafafa;
+        font-size: 20px;
+    }
+
+    main{
+        section{
+            div{
+                gap: 20px;
+                div{
+                    height: 250px;
+                    border-radius: 16px;
+                    h3{
+                        font-size: 24px;
+                    }
+                div{
+                    height: 250px;
+                    border-radius: 16px;
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+                div{
+                    height: 250px;
+                    border-radius: 16px;
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+                }
+            }
+        }
+        section{
+            div{
+                display: flex;
+                gap: 20px;
+                overflow-x: auto;
+                div{
+                    box-shadow: 0 4px 10px #c9c9c9;
+                }
+            }
+        }
+    }
+
+    .banner-perros{
+        background-image: url(../imagenes/banner-tablet-perros.png);
+        height: 20vh;
+        background-size: cover;
+    }
+
+    .banner-gatos{
+        background-image: url(../imagenes/banner-tablet-gatos.png);
+    }
+
+    main{
+        aside{
+            margin: 40px 40px 0 0;
+            gap: 22px;
+            div{
+                h3{
+                    font-size: 16px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pages{
+        .group-products{
+            gap: 20px;
+            margin: 40px 0;
+            div{
+                h4{
+                    text-align: center;
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                }
+                .img{
+                    width: 160px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .pages{
+        .group-products-2{
+            gap: 20px;
+            margin: 40px 0;
+            div{
+                h4{
+                    text-align: center;
+                    padding-bottom: 20px;
+                    font-size: 16px;
+                }
+                .img{
+                    width: 160px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    footer{
+        font-size: 16px;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        div{
+            ul{
+                li{
+                    padding-bottom: 4px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width:  486px){
+    header{
+        nav{
+            div{
+                button{
+                    border: none;
+                }
+            }
+        }
+    }
+    .hero-section{
+        height: 40vh;
+        padding: 20px;
+        gap: 20px;
+        text-align: left;
+        color: #fafafa;
+        font-size: 16px;
+    }
+
+    .hero-section{
+        button{
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .enlaces{
+        margin: 40px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        div{
+            .img-enlace{
+                border-radius: 50px;
+                margin-bottom: 8px;
+            }
+            h5{
+                text-align: center;
+            }
+        }
+    }
+
+    main{
+        section{
+            margin: 40px;
+            h2{
+                font-size: 20px;
+            }
+            div{
+                margin: 40px 0;
+                display: flex;
+                flex-direction: column;
+                .card-oferta-accesorios{
+                    width: 100%;
+                    height: 20vh;
+                    border-radius: 16px;
+                    box-shadow: 0 4px 10px #c9c9c9;
+                    h3{
+                        font-size: 20px;
+                        top: 32px;
+                        right: 32px;
+                    }
+                }
+                .card-oferta-juguetes{
+                    width: 100%;
+                    height: 20vh;
+                    border-radius: 16px;
+                    h3{
+                        font-size: 20px;
+                        top: 32px;
+                        right: 32px;
+                    }
+                }
+                .card-oferta-masticables{
+                    width: 100%;
+                    height: 20vh;
+                    border-radius: 16px;
+                    h3{
+                        font-size: 20px;
+                        top: 32px;
+                        right: 32px;
+                    }
+                }
+            }
+        }
+        .recomendaciones{
+            margin: 40px;
+            font-size: 14px;
+            .group-card{
+                overflow-x: auto;
+                margin: 40px 0;
+                .producto-popular{
+                    font-size: 12px;
+                    padding: 12px;
+                    border-radius: 10px;
+                    h4{
+                        font-size: 20px;
+                        margin: 8px 0;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                    .button-card{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .pages{
+        aside{
+            display: none;
+        }
+        .group-products{
+            gap: 12px;
+            margin: 24px 0;
+            div{
+                h4{
+                    padding-bottom: 12px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .pages{
+        aside{
+            display: none;
+        }
+        .group-products-2{
+            gap: 12px;
+            margin: 24px 0;
+            div{
+                h4{
+                    padding-bottom: 12px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .banner-perros{
+        background-image: url(../imagenes/banner-mobile-perro.png);
+        height: 20vh;
+        background-size: cover;
+    }
+    
+    .banner-gatos{
+        background-image: url(../imagenes/banner-mobile-gato.png);
+    }
+
+    footer{
+        padding: 20px;
+        gap: 20px;
+        div{
+            h3{
+                font-size: 16px;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

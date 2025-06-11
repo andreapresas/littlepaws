@@ -8,10 +8,6 @@ body{
     font-family:sans-serif;
     background-color: #fafafa;
 }
-
-
-
-
 /* estilos del header*/
 
 header{
@@ -118,6 +114,10 @@ header nav .container-fluid div form input{
 .login .form-box .form-login .input input{
     width: 100%;
     margin-top: 8px;
+    padding: 10px 20px;
+    color: #B2B2B2;
+    border-radius: 10px;
+    border: 1px solid #B2B2B2;
 }
 
 .imagen{
@@ -133,14 +133,6 @@ padding:  40px;
 border-radius: 10px;
 box-shadow: 0 4px 16px #4d4a4a5f;
 }
-
-
-main .form-box .form-login input{
-    padding: 10px 20px;
-    color: #B2B2B2;
-    border-radius: 10px;
-}
-
 
 .checkbox-container{
     max-width: 100%;
@@ -452,6 +444,7 @@ footer div ul li a{
     }
 
     .group-card{
+        overflow-x: auto;
         display: flex;
         gap: 20px;
     }

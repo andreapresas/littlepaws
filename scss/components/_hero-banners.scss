@@ -1,0 +1,50 @@
+.hero-section{
+    background-image: url(../imagenes/perros-hero-secction.png);
+    height: 40vh;
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    color: #fafafa;
+    font-size: 24px;
+    button{
+        padding: 16px 60px;
+        font-size: 26px;
+        font-weight:900;
+        border-radius: 8px;
+        border: none;
+        color: #E8F6F9;
+        background-color: #16A1C2;
+        box-shadow: 0 4px 10 px #3e3c3c;
+        &:hover{
+            background-color: #0a4a5a;
+        }
+    }
+}
+
+.benner-perros{
+    background-image: url(../imagenes/perros.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.banner-gatos{
+    background-image: url(../imagenes/gatos.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.banner-accesorios{
+    background-image: url(../imagenes/accesorios.png);
+    height: 20vh;
+    background-size: cover;
+}
+
+.enlaces{
+    display: none;
+}
